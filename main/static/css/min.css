@@ -1,0 +1,205 @@
+body {
+	font-family: Arial, sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+.clearfix:after {
+	content:'';
+	display: table;
+	width: 100%;
+	clear: both;
+}
+
+section {
+	padding: 20px 0px 20px 0px;
+}
+
+.container {
+	max-width: 1000px;
+	margin: 0 auto;
+	padding-top: 30px;
+}
+
+div {
+	box-sizing: border-box;
+}
+
+header {
+	background: url(../img/dor.jpg) no-repeat center top / cover;
+	padding-bottom: 25px;
+}
+
+
+@media (max-width:1200px) {
+	container {
+		max-width: 970px;
+	}
+}
+
+@media (max-width:992px) {
+	container {
+		max-width: 750px;
+	}
+}
+
+@media (max-width:767px) {
+	container {
+		max-width: none;
+	}
+}
+
+.heading {
+	background-color: rgba(0, 0, 0, 0.6);
+	padding-bottom: 20px;
+	border-radius: 15px;
+}
+
+.logo {
+	margin-top: 23px;
+	margin-left: 15px;
+	float: left;
+	max-width: 110px;
+}
+
+nav {
+	float: right;
+	margin-top: 20px;
+
+}
+
+.menu {
+	padding: 0;
+	margin: 0;
+	display: block;
+}
+
+.menu p {
+	float: left;
+	display: block;
+	margin-right: 25px;
+}
+
+.menu a {
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 15px;
+}
+
+h1 {
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 40px;
+	text-shadow: #222 1px 1px 0, #222 2px 2px 0, 
+                 #222 3px 3px 0, #222 4px 4px 0;
+}
+
+.servis {
+	color: #fff;
+	font-size: 20px;
+	margin-top: 20px;
+	text-shadow: #222 1px 1px 0, #222 2px 2px 0, 
+                 #222 3px 3px 0, #222 4px 4px 0;
+}
+
+.titles {
+	text-align: right;
+	margin-top: 180px;
+	margin-right: 15px;
+}
+
+
+.button {
+	background: #fed136;
+	color: #000;
+	border-radius: 5px;
+ 	display: block;
+	width: 180px;
+	margin: 10px;
+	padding: 10px 0px 10px 0px;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+
+
+h3 {
+	font-size: 20px;
+	padding: 0px;
+	margin: 0px;
+}
+
+
+.forms {
+    padding: 50px 0px 50px 0px;
+	margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 15px;
+}
+
+.form {
+    margin: 0 25% 0 25%;
+	max-width: 800px;
+    background-color: #fff;
+    border-radius: 5px;
+    width: 50%;
+    height: 200px; 
+    resize: none;
+}
+
+
+.button2 {
+	margin: 10px auto 20px;
+	background: #fed136;
+	color: #000;
+	border-radius: 5px;
+ 	display: block;
+	width: 280px;
+	padding: 10px 0px 10px 0px;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+
+.besit {
+	color: #fff;
+ 	display: block;
+	width: 90%;
+	margin: 50px auto 0px;
+	padding: 10px 0px 10px 0px;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+
+
+
+.cont {
+    float: left;
+    margin: 25px;
+    max-width: 200px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 5px;
+}
+
+.contik {
+    color: #000;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    color: #fff;
+}
+
+.dno {
+    margin-top: 260px;
+}

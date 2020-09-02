@@ -1,0 +1,41 @@
+{% load static %}
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{% block title %}{% endblock %}</title>
+    <link rel="stylesheet" href="{% static '/css/min.css' %}" type="text/css">
+    <link rel="shortcut icon" type="image/png" href="{% static 'favicon.ico' %}">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="heading clearfix"> 
+           	<img src={% static 'img/logo.png' %} alt="Welcome" class="logo">
+        		<nav>
+        			<ul class="menu">
+        				<p>
+        					<a href="/">Главная</a>
+        				</p>
+        				<p>
+        					<a href="/video">Видяшки</a>
+        				</p>
+        				<p>
+        					<a href="/book">Книги</a>
+        				</p>
+        				<p>
+        					<a href="/feedback">Обратная связь</a>
+        				</p>
+        			</ul>
+        		</nav>
+        	</div>
+        </div>
+        <div class="container">
+            {% block body %}{% endblock %}
+        </div>
+    </header>
+</body>
+</html>

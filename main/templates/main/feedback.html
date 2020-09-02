@@ -1,0 +1,25 @@
+{% extends 'main/base.html' %}
+
+{% block title %}
+Feedback
+{% endblock %}
+
+{% load static %}
+
+{% block body %}
+    <div class="besit">
+        <h3>Это блок для формы обратной связи</h3>
+        <p>В рот она ебись</p>
+    </div>
+	<div class="lin clearfix">
+		<div class="forms">
+            <form method="post">
+                {% csrf_token %}
+                {{ form.feedback }}<br>
+                <button type="submit" class="button2">Отправить</button>
+                <span>{{ error }}</span>
+            </form>
+        </div>
+    </div>
+{% endblock %}
+

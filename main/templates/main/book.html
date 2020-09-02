@@ -1,0 +1,25 @@
+{% extends 'main/base.html' %}
+
+{% block title %}
+Book
+{% endblock %}
+
+{% load static %}
+
+{% block body %}
+    <h1>+/- блок с книгами</h1>
+    <p>Сообрази только, как и чем их открывать х)</p>
+	<div class="lin clearfix">
+        <div class="cont">
+		    <img src={% static "img/prev3.jpg" %} alt="Video" class="prev">
+		    <div class="contik">
+		    	<h3>Название</h3>
+		    	<p>Жанр: роман</p>
+		    	</div>
+		    <a class="button" href={% static "book/a.fb2" %}>fb2</a>
+		    <a class="button" href={% static "book/a.txt" %}>txt</a>
+		    <a class="button" href={% static "book/a.pdf" %}>pdf</a>
+	    </div>
+	</div>
+{% endblock %}
+
