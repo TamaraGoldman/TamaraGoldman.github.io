@@ -203,3 +203,7 @@ h3 {
 .dno {
     margin-top: 260px;
 }
+
+.prev {
+    max-width: 200px;
+}
