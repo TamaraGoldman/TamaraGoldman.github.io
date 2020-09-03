@@ -7,19 +7,91 @@ Book
 {% load static %}
 
 {% block body %}
-    <h1>+/- блок с книгами</h1>
-    <p>Сообрази только, как и чем их открывать х)</p>
+    <!--h1>+/- блок с книгами</h1>
+    <p>Сообрази только, как и чем их открывать х)</p-->
 	<div class="lin clearfix">
         <div class="cont">
-		    <img src={% static "img/prev3.jpg" %} alt="Video" class="prev">
+		    <img src={% static "img/prev_a.jpg" %} alt="Book" class="prev">
 		    <div class="contik">
-		    	<h3>Название</h3>
-		    	<p>Жанр: роман</p>
+		    	<h3>"Мертвые <br/> души"</h3>
+		    	<p>Гоголь Николай Васильевич</p>
 		    	</div>
 		    <a class="button" href={% static "book/a.fb2" %}>fb2</a>
 		    <a class="button" href={% static "book/a.txt" %}>txt</a>
 		    <a class="button" href={% static "book/a.pdf" %}>pdf</a>
 	    </div>
+	    <div class="cont">
+		    <img src={% static "img/prev_b.jpg" %} alt="Book" class="prev">
+		    <div class="contik">
+		    	<h3>“Преступление и наказание”</h3>
+		    	<p>Достоевский Федор Михайлович</p>
+		    	</div>
+		    <a class="button" href={% static "book/b.fb2" %}>fb2</a>
+		    <a class="button" href={% static "book/b.txt" %}>txt</a>
+		    <a class="button" href={% static "book/b.pdf" %}>pdf</a>
+	    </div>
+	    <div class="cont">
+		    <img src={% static "img/prev_c.jpg" %} alt="Book" class="prev">
+		    <div class="contik">
+		    	<h3>“Анна <br/> Каренина”</h3>
+		    	<p>Толстой Лев <br/> Николаевич</p>
+		    	</div>
+		    <a class="button" href={% static "book/c.fb2" %}>fb2</a>
+		    <a class="button" href={% static "book/c.txt" %}>txt</a>
+		    <a class="button" href={% static "book/c.pdf" %}>pdf</a>
+	    </div>
+	    <div class="cont">
+		    <img src={% static "img/prev_d.jpg" %} alt="Book" class="prev">
+		    <div class="contik">
+		    	<h3>“Граф Монте-Кристо”</h3>
+		    	<p>Александр <br/> Дюма</p>
+		    	</div>
+		    <a class="button" href={% static "book/d.fb2" %}>fb2</a>
+		    <a class="button" href={% static "book/d.txt" %}>txt</a>
+		    <a class="button" href={% static "book/d.pdf" %}>pdf</a>
+	    </div>
 	</div>
+	<div class="lin clearfix">
+        <div class="cont">
+		    <img src={% static "img/prev_e.jpg" %} alt="Book" class="prev">
+		    <div class="contik">
+		    	<h3>“Путешествия Души”</h3>
+		    	<p>Ньютон <br/> Майкл</p>
+		    	</div>
+		    <a class="button" href={% static "book/e.fb2" %}>fb2</a>
+		    <a class="button" href={% static "book/e.txt" %}>txt</a>
+		    <a class="button" href={% static "book/e.pdf" %}>pdf</a>
+	    </div>
+	    <div class="cont">
+		    <img src={% static "img/prev_f.jpg" %} alt="Book" class="prev">
+		    <div class="contik">
+		    	<h3>“Сатанинская библия”</h3>
+		    	<p>ЛаВей Антон <br/> Шандор</p>
+		    	</div>
+		    <a class="button" href={% static "book/f.fb2" %}>fb2</a>
+		    <a class="button" href={% static "book/f.txt" %}>txt</a>
+		    <a class="button" href={% static "book/f.pdf" %}>pdf</a>
+	    </div>
+	    <div class="cont">
+		    <img src={% static "img/prev_g.jpg" %} alt="Book" class="prev">
+		    <div class="contik">
+		    	<h3>“Так говорил Заратустра”</h3>
+		    	<p>Ницше Фридрих Вильгельм</p>
+		    	</div>
+		    <a class="button" href={% static "book/g.fb2" %}>fb2</a>
+		    <a class="button" href={% static "book/g.txt" %}>txt</a>
+		    <a class="button" href={% static "book/g.pdf" %}>pdf</a>
+	    </div>
+	    <div class="cont">
+		    <img src={% static "img/prev_h.jpg" %} alt="Book" class="prev">
+		    <div class="contik">
+		    	<h3>“Морфий” <br/> . </h3>
+		    	<p>Булгаков Михаил Афанасьевич</p>
+		    	</div>
+		    <a class="button" href={% static "book/h.fb2" %}>fb2</a>
+		    <a class="button" href={% static "book/h.txt" %}>txt</a>
+		    <a class="button" href={% static "book/h.pdf" %}>pdf</a>
+	    </div>
+	</div>
+	
 {% endblock %}
-
