@@ -36,3 +36,6 @@ def feedback(request):
     
 def thanks(request):
     return render(request, 'main/thanks.html')
+
+def vidos(request):
+    return render(request, 'main/vidos.html')
