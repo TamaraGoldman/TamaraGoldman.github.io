@@ -1,0 +1,21 @@
+{% extends 'main/base.html' %}
+
+{% block title %}
+Thanks
+{% endblock %}
+
+{% load static %}
+
+{% block body %}
+    <div class="besit">
+        <p>Видосик!</p>
+    </div>
+    <a class="button2" href="/">Вернуться на главную</a>
+   	<div class="dno">
+   	<div id="player"></div>
+
+        <script>
+            var player = new Playerjs({id:"player", file:"static/video/vid1.mp4"});
+        </script>
+    </div>
+{% endblock %}
